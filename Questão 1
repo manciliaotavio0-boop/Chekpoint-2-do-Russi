@@ -27,3 +27,4 @@ elif estado == 5:
 
 print(f"Valor total transportado pelo caminhão: R${preco+imposto}")
 
+
