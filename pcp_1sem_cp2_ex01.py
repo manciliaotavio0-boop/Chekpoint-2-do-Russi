@@ -23,6 +23,7 @@ elif estado == 4:
   imposto = preco * 0.05
 elif estado == 5:
   imposto = 0
+  
 
 
 print(f"Valor total transportado pelo caminhão: R${preco+imposto}")
