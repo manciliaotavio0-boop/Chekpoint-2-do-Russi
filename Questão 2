@@ -28,3 +28,4 @@ elif a==b==c:
   print("Triangulo equilatero")
 elif a==b or a==c or b==c:
   print("Triangulo isosceles")
+
