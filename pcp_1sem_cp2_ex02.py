@@ -13,10 +13,6 @@ b=(max(lista))
 lista.remove(b)
 c = lista[0]
 
-print(a)
-print(b)
-print(c)
-
 forma_triangulo = True 
 if a>=b+c:
   print("Não forma triangulo")
