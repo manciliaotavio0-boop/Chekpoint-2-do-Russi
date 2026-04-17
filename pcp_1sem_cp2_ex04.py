@@ -5,11 +5,26 @@ hora_extra = int(input("Digite o total de horas extras trabalhadas: "))
 falta = int(input("Digite o total de faltas no mês: "))
 bonus = int(input("Recebeu bônus por desempenho? (1-Sim, 2-Não) "))
 
-extra = hora_extra * (salario_base * 0.015)
+def calcular_horas_extras(salario, total_horas):
+    horas_extras = (salario * 0.015) * total_horas + salario
+    return horas_extras
 
-def calcular_horas_extras(a, b):
-    calcular_horas_extras = a + b
-    return calcular_horas_extras
+def calcular_descontos_faltas(a, b):
+    descontos_falta = (a * 0.02) * b
+    return descontos_falta
 
-salario_extra = calcular_horas_extras(salario_base, extra)
-print(salario_extra)
+def calcular_bonus(cargoo):
+    if cargoo == 1:
+        valor_bonus = 1000
+    elif cargoo == 2:
+        valor_bonus = 500
+    elif cargoo == 3:
+        valor_bonus = 300
+    elif cargoo == 4:
+        valor_bonus = 100
+    else:
+        valor_bonus = 0
+
+salario_extra = calcular_horas_extras(salario_base, hora_extra)
+
+desconto_falta = calcular_descontos_faltas(salario_base, falta)
