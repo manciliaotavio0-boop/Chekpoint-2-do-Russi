@@ -1,4 +1,4 @@
-# Checkpoint 2 - Esturutra Condicional e Funções
+# Checkpoint 2 - Estrutura Condicional e Funções
 
 ## Integrantes do Grupo
 
