@@ -1,6 +1,6 @@
-# 📌 Checkpoint 2 - Projeto do Russi
+# Checkpoint 2 - Projeto do Russi
 
-## 👥 Integrantes do Grupo
+## Integrantes do Grupo
 
 * **Gabriela Angel Silva** — RM: 570808
 * **Izabelly Menezes** — RM: 570673
