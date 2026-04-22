@@ -1,4 +1,4 @@
-# Checkpoint 2 - Projeto do Russi
+# Checkpoint 2 - Esturutra Condicional e Funções
 
 ## Integrantes do Grupo
 
