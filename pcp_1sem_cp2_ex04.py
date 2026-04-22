@@ -7,7 +7,7 @@ def calcular_descontos_faltas(salario, faltas):
     return descontos_falta
 
 def calcular_bonus(cargo, recebe):
-    if recebe != 1:
+    if recebe != 's':
         return 0
 
     if cargo == 1:
@@ -26,7 +26,7 @@ nome_cargo = int(input("Digite o cargo: (1-Gerente, 2-Analista, 3-Assistente, 4-
 salario_base = float(input("Digite o salário base: R$"))
 horas_extras = int(input("Digite o total de horas extras trabalhadas: "))
 total_faltas = int(input("Digite o total de faltas no mês: "))
-recebe_bonus = int(input("Recebeu bônus por desempenho? (1-Sim, 2-Não) "))
+recebe_bonus = input("Recebeu bônus por desempenho? (s - Sim, n - Não) "))
 
 print(f"Nome do funcionário: {nome_funcionario}")
 print(f"Salário bruto: R$ {salario_base:.2f}")
