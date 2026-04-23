@@ -1,4 +1,4 @@
-# Checkpoint 2 - Estrutura Condicional e Funções
+# Checkpoint 2 -  Sistema Acadêmico em C
 
 ## Integrantes do Grupo
 
